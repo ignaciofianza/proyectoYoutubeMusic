@@ -1,414 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Music Premium - YouTube</title>
 
-    <!-- !BOOTSTRAP -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <!-- !BOOTSTRAP -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Premium - YouTube</title>
 
-    <!-- !BOOTSTRAP - Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <!-- !BOOTSTRAP - Icons -->
 
-    <!-- ?CSS -->
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/pricing.css" />
-    <link rel="stylesheet" href="./css/downbar.css" />
-    <!-- ?CSS -->
+  <!-- *Meta - Tags -->
+  <meta name="description"
+    content="With YouTube Music Premium, easily explore the world of music ad-free, offline, and with the screen locked. Available on mobile and desktop." />
+  <meta name="keywords"
+    content="YouTube Music, Music Premium, ad-free music, offline music, music streaming, background play, YouTube Premium, music subscription" />
+  <meta name="author" content="@ignaciofianza, @developersantiagofigueroa" />
+  <!-- *Meta - Tags -->
 
-    <!-- *Favicon -->
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
-    <!-- *Favicon -->
 
-    <!-- Font Roboto -->
+  <!-- !BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- !BOOTSTRAP -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+  <!-- !BOOTSTRAP - Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- !BOOTSTRAP - Icons -->
 
-    <!-- Font Roboto -->
-  </head>
+  <!-- ?CSS -->
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/pricing.css" />
+  <link rel="stylesheet" href="./css/downbar.css" />
+  <!-- ?CSS -->
 
-  <body>
-    <header class="header">
-      <nav class="header__nav">
-        <div class="header__nav-left">
-          <i class="bi bi-list"></i>
-          <img
-            class="header__youtube-logo"
-            src="./img/youtube.png"
-            alt="Logo de YouTube"
-            title="Logo de YouTube"
-          />
-        </div>
+  <!-- *Favicon -->
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+  <!-- *Favicon -->
 
-        <div class="header__nav-center">
-          <input type="search" placeholder="Search" class="searchbar" />
-          <i class="bi bi-mic-fill"></i>
-        </div>
+  <!-- Font Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- Font Roboto -->
 
-        <div class="header__nav-right">
-          <i class="bi bi-three-dots-vertical"></i>
-          <button class="header__nav-right__btn">
-            <i class="bi bi-person"></i>
-            <p class="btn__text">Sign in</p>
-          </button>
-        </div>
 
-        <!-- ?mobile -->
+</head>
 
-        <div class="header-mobile__nav-left">
-          <img
-            class="header-mobile__logo"
-            src="./img/logoOnlyYoutube.png"
-            alt="Logo de YouTube"
-            title="Logo de YouTube"
-          />
-          <h2>Get Music Premium</h2>
-        </div>
-
-        <div class="header-mobile__nav-right">
-          <i class="bi bi-search"></i>
-          <i class="bi bi-three-dots-vertical"></i>
-        </div>
-      </nav>
-    </header>
-
-    <main class="main">
-      <div class="main__container-img">
-        <img src="./img/logo.png" alt="" class="main__img" />
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <div class="header__nav-left">
+        <i class="bi bi-list"></i>
+        <img class="header__youtube-logo" src="./img/youtube.png" alt="Logo de YouTube" title="Logo de YouTube" />
       </div>
 
-      <div class="main__container-text">
-        <h3 class="main__title">
-          Get Music Premium to listen to music ad-free, offline and with your
-          screen off
-        </h3>
-        <p class="main__description">
-          1-month trial for US$0 • Then US$5.99/month • Cancel at any time
-        </p>
+      <div class="header__nav-center">
+        <input type="search" placeholder="Search" class="searchbar" />
+        <i class="bi bi-mic-fill"></i>
       </div>
 
-      <div class="main__container-btn">
-        <button class="main__btn">Try 1 month for US$0</button>
+      <div class="header__nav-right">
+        <i class="bi bi-three-dots-vertical"></i>
+        <button class="header__nav-right__btn">
+          <i class="bi bi-person"></i>
+          <p class="btn__text">Sign in</p>
+        </button>
       </div>
 
-      <div class="main__container-description">
-        <p class="main__description-plan">
-          Or save money with a <a href="#">family or student plan </a>
-        </p>
-        <p class="main__description-policy">
-          You'll be reminded 7 days before your trial ends. Recurring billing.
-          Free-of-charge trial for eligible new members only. <br />
-          <a href="#">Restrictions apply.</a>
-        </p>
+      <!-- ?mobile -->
+
+      <div class="header-mobile__nav-left">
+        <img class="header-mobile__logo" src="./img/logoOnlyYoutube.png" alt="Logo de YouTube"
+          title="Logo de YouTube" />
+        <h2>Get Music Premium</h2>
       </div>
 
-      <div class="main__container-video">
-        <img
-          class="main__video"
-          src="./img/background.webp"
-          autoplay
-          muted
-          loop
-        />
+      <div class="header-mobile__nav-right">
+        <i class="bi bi-search"></i>
+        <i class="bi bi-three-dots-vertical"></i>
       </div>
-    </main>
+    </nav>
+  </header>
 
-    <!-- !Features1 -->
-    <section class="features1">
-      <h2 class="features1__title">
-        Over 100M songs, videos, live performances and more at your fingertips
-      </h2>
-      <div class="features1__cards">
-        <div class="features1__cards-card">
-          <img
-            class="features1__cards-card-image"
-            src="./img/ads.png"
-            alt="Ad icon with a close button overlay."
-          />
-          <p class="features1__cards-card-text">
-            Listen ad-free to your favourite songs and artists
-          </p>
-        </div>
-        <div class="features1__cards-card">
-          <img
-            class="features1__cards-card-image"
-            src="./img/content.webp"
-            alt="Illustration of a scroll animation with two overlapping rectangles, a detailed vertical green rectangle, and a colorful horizontal one on top."
-          />
-          <p class="features1__cards-card-text">
-            Download offline to listen on the go or play in the background for
-            an uninterrupted experience
-          </p>
-        </div>
-        <div class="features1__cards-card">
-          <img
-            class="features1__cards-card-image"
-            src="./img/music.webp"
-            alt="Illustration of soundwaves represented by green bars of varying heights, resembling an audio signal on a black background."
-          />
-          <p class="features1__cards-card-text">
-            Switch from audio to video when listening to songs with just a tap
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- !Features1 -->
-
-    <!-- !Pricing -->
-    <section class="pricing">
-      <h2 class="pricing__title">Pick a membership that fits you</h2>
-      <div class="pricing__cards">
-        <!-- individual -->
-        <div class="pricing__cards-card">
-          <div class="pricing__cards-card-container">
-            <i class="bi bi-person-fill pricing__cards-card-container-icon"></i>
-            <h3 class="pricing__cards-card-container-title">Individual</h3>
-          </div>
-          <hr class="pricing__cards-card-hr" />
-          <p class="pricing__cards-card-period">Monthly</p>
-          <h4 class="pricing__cards-card-price">US$5.99/month</h4>
-          <p class="pricing__cards-card-trial">1-month trial for US$0</p>
-          <p class="pricing__cards-card-restrictions">
-            Free-of-charge trial for eligible new members only.
-            <a href="#">Restrictions apply. </a>
-          </p>
-          <button class="pricing__cards-card-button">
-            Try 1 month for US$0
-          </button>
-        </div>
-
-        <!-- family -->
-        <div class="pricing__cards-card">
-          <div class="pricing__cards-card-container">
-            <i class="bi bi-people pricing__cards-card-container-icon"></i>
-            <h3 class="pricing__cards-card-container-title">Family</h3>
-          </div>
-          <hr class="pricing__cards-card-hr" />
-          <p class="pricing__cards-card-period">Monthly</p>
-          <h4 class="pricing__cards-card-price">US$8.99/month</h4>
-          <p class="pricing__cards-card-trial">1-month trial for US$0</p>
-          <p class="pricing__cards-card-restrictions">
-            Add up to 5 family members (aged 13+) in your household.
-            <a href="#">Restrictions apply. </a>
-          </p>
-          <button class="pricing__cards-card-button2">
-            Try 1 month for US$0
-          </button>
-        </div>
-
-        <!-- student -->
-        <div class="pricing__cards-card">
-          <div class="pricing__cards-card-container">
-            <i class="bi bi-mortarboard pricing__cards-card-container-icon"></i>
-            <h3 class="pricing__cards-card-container-title">Student</h3>
-          </div>
-          <hr class="pricing__cards-card-hr" />
-          <p class="pricing__cards-card-period">Monthly</p>
-          <h4 class="pricing__cards-card-price">US$2.99/month</h4>
-          <p class="pricing__cards-card-trial">1-month trial for US$0</p>
-          <p class="pricing__cards-card-restrictions">
-            Eligible students only. Annual verification required.
-            <a href="#">Restrictions apply. </a>
-          </p>
-          <button class="pricing__cards-card-button2">
-            <i class="bi bi-box-arrow-up-right"></i> Try 1 month for US$0
-          </button>
-        </div>
-      </div>
-    </section>
-    <!-- !Pricing -->
-
-    <section class="features">
-      <div class="features__container-text">
-        <h2 class="features__title">Youtube Music, your way</h2>
-        <p class="features__description">
-          These features are available in the YouTube Music app without a
-          subscription.
-        </p>
-      </div>
-
-      <div class="features__container-articles">
-        <article class="features__article move">
-          <div class="features__article-container__text">
-            <h3 class="features__article-title">Move to your own rhythm</h3>
-            <p class="features__article-description">
-              Listen to mixes based on the music that you love and discover
-              thousands of other playlists curated to match any mood or moment.
-            </p>
-          </div>
-
-          <div class="features__article-container__img">
-            <img
-              class="features__article-img moveimg"
-              src="./img/albums.webp"
-              alt=""
-            />
-          </div>
-        </article>
-
-        <article class="features__article customise">
-          <div class="features__article-container__img">
-            <img
-              class="features__article-img customiseimg"
-              src="./img/mobile.webp"
-              alt=""
-            />
-          </div>
-
-          <div class="features__article-container__text">
-            <h3 class="features__article-title">
-              Customise your listening experience
-            </h3>
-            <p class="features__article-description">
-              Combine your favourite artists and fine-tune your own music
-              experience.
-            </p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <div class="accordion__container">
-      <section class="accordion">
-        <div class="accordion__container-title">
-          <h3>Any questions? We're here to help.</h3>
-        </div>
-
-        <div class="accordion__container-questions">
-          <div class="accordion__question">
-            <p class="accordion__question-title">
-              How do I play videos and music in the background?
-            </p>
-            <div class="arrow"></div>
-          </div>
-          <hr />
-        </div>
-
-        <div class="accordion__container-questions">
-          <div class="accordion__question">
-            <p class="accordion__question-title">
-              What products, services and devices support YouTube Music Premium?
-            </p>
-            <div class="arrow"></div>
-          </div>
-          <hr />
-        </div>
-
-        <div class="accordion__container-questions">
-          <div class="accordion__question">
-            <p class="accordion__question-title">
-              How many members can I add to a family plan?
-            </p>
-            <div class="arrow"></div>
-          </div>
-          <hr />
-        </div>
-
-        <div class="accordion__container-questions">
-          <div class="accordion__question">
-            <p class="accordion__question-title">
-              How can I cancel my subscription?
-            </p>
-            <div class="arrow"></div>
-          </div>
-          <hr />
-        </div>
-
-        <div class="accordion__container-bottom">
-          <p>Have other questions?</p>
-          <p>Visit the <a href="#">YouTube Help Centre</a></p>
-        </div>
-      </section>
-
-      <!-- *Downbar -->
-      <section class="downbar">
-        <div class="downbar__item">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="#ffffff"
-            height="16"
-            viewBox="0 0 24 24"
-            width="24"
-            focusable="false"
-            aria-hidden="true"
-            style="
-              pointer-events: none;
-              display: inherit;
-              width: 100%;
-              height: 100%;
-            "
-          >
-            <path
-              clip-rule="evenodd"
-              d="M22.146 11.146a.5.5 0 01-.353.854H20v7.5a1.5 1.5 0 01-1.5 1.5h-5v-7h-3v7h-5A1.5 1.5 0 014 19.5V12H2.207a.5.5 0 01-.353-.854L12 1l10.146 10.146ZM18.5 9.621l-6.5-6.5-6.5 6.5V19.5H9V13a.5.5 0 01.5-.5h5a.5.5 0 01.5.5v6.5h3.5V9.621Z"
-              fill-rule="evenodd"
-            ></path>
-          </svg>
-          <p class="downbar__item-text">Home</p>
-        </div>
-        <div class="downbar__item">
-          <svg
-            class="downbar__item-icon"
-            xmlns="http://www.w3.org/2000/svg"
-            height="19"
-            viewBox="0 0 24 24"
-            width="24"
-            focusable="false"
-            aria-hidden="true"
-            style="
-              pointer-events: none;
-              display: inherit;
-              width: 100%;
-              height: 100%;
-            "
-          >
-            <path
-              d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z"
-              fill="#ffffff"
-            ></path>
-          </svg>
-          <p class="downbar__item-text">Shorts</p>
-        </div>
-        <div class="downbar__item">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="24"
-            viewBox="0 0 24 24"
-            width="24"
-            focusable="false"
-            aria-hidden="true"
-            style="
-              pointer-events: none;
-              display: inherit;
-              width: 100%;
-              height: 100%;
-            "
-          >
-            <path
-              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 1c4.96 0 9 4.04 9 9 0 1.42-.34 2.76-.93 3.96-1.53-1.72-3.98-2.89-7.38-3.03A3.996 3.996 0 0016 9c0-2.21-1.79-4-4-4S8 6.79 8 9c0 1.97 1.43 3.6 3.31 3.93-3.4.14-5.85 1.31-7.38 3.03C3.34 14.76 3 13.42 3 12c0-4.96 4.04-9 9-9zM9 9c0-1.65 1.35-3 3-3s3 1.35 3 3-1.35 3-3 3-3-1.35-3-3zm3 12c-3.16 0-5.94-1.64-7.55-4.12C6.01 14.93 8.61 13.9 12 13.9c3.39 0 5.99 1.03 7.55 2.98C17.94 19.36 15.16 21 12 21z"
-              fill="#ffffff"
-            ></path>
-          </svg>
-          <p class="downbar__item-text">You</p>
-        </div>
-      </section>
-      <!-- *Downbar -->
+  <main class="main">
+    <div class="main__container-img">
+      <img src="./img/logo.png" alt="" class="main__img" />
     </div>
-  </body>
+
+    <div class="main__container-text">
+      <h3 class="main__title">
+        Get Music Premium to listen to music ad-free, offline and with your
+        screen off
+      </h3>
+      <p class="main__description">
+        1-month trial for US$0 • Then US$5.99/month • Cancel at any time
+      </p>
+    </div>
+
+    <div class="main__container-btn">
+      <button class="main__btn">Try 1 month for US$0</button>
+    </div>
+
+    <div class="main__container-description">
+      <p class="main__description-plan">
+        Or save money with a <a href="#">family or student plan </a>
+      </p>
+      <p class="main__description-policy">
+        You'll be reminded 7 days before your trial ends. Recurring billing.
+        Free-of-charge trial for eligible new members only. <br />
+        <a href="#">Restrictions apply.</a>
+      </p>
+    </div>
+
+    <div class="main__container-video">
+      <img class="main__video" src="./img/background.webp" autoplay muted loop />
+    </div>
+  </main>
+
+  <!-- !Features1 -->
+  <section class="features1">
+    <h2 class="features1__title">
+      Over 100M songs, videos, live performances and more at your fingertips
+    </h2>
+    <div class="features1__cards">
+      <div class="features1__cards-card">
+        <img class="features1__cards-card-image" src="./img/ads.png" alt="Ad icon with a close button overlay." />
+        <p class="features1__cards-card-text">
+          Listen ad-free to your favourite songs and artists
+        </p>
+      </div>
+      <div class="features1__cards-card">
+        <img class="features1__cards-card-image" src="./img/content.webp"
+          alt="Illustration of a scroll animation with two overlapping rectangles, a detailed vertical green rectangle, and a colorful horizontal one on top." />
+        <p class="features1__cards-card-text">
+          Download offline to listen on the go or play in the background for
+          an uninterrupted experience
+        </p>
+      </div>
+      <div class="features1__cards-card">
+        <img class="features1__cards-card-image" src="./img/music.webp"
+          alt="Illustration of soundwaves represented by green bars of varying heights, resembling an audio signal on a black background." />
+        <p class="features1__cards-card-text">
+          Switch from audio to video when listening to songs with just a tap
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- !Features1 -->
+
+  <!-- !Pricing -->
+  <section class="pricing">
+    <h2 class="pricing__title">Pick a membership that fits you</h2>
+    <div class="pricing__cards">
+      <!-- individual -->
+      <div class="pricing__cards-card">
+        <div class="pricing__cards-card-container">
+          <i class="bi bi-person-fill pricing__cards-card-container-icon"></i>
+          <h3 class="pricing__cards-card-container-title">Individual</h3>
+        </div>
+        <hr class="pricing__cards-card-hr" />
+        <p class="pricing__cards-card-period">Monthly</p>
+        <h4 class="pricing__cards-card-price">US$5.99/month</h4>
+        <p class="pricing__cards-card-trial">1-month trial for US$0</p>
+        <p class="pricing__cards-card-restrictions">
+          Free-of-charge trial for eligible new members only.
+          <a href="#">Restrictions apply. </a>
+        </p>
+        <button class="pricing__cards-card-button">
+          Try 1 month for US$0
+        </button>
+      </div>
+
+      <!-- family -->
+      <div class="pricing__cards-card">
+        <div class="pricing__cards-card-container">
+          <i class="bi bi-people pricing__cards-card-container-icon"></i>
+          <h3 class="pricing__cards-card-container-title">Family</h3>
+        </div>
+        <hr class="pricing__cards-card-hr" />
+        <p class="pricing__cards-card-period">Monthly</p>
+        <h4 class="pricing__cards-card-price">US$8.99/month</h4>
+        <p class="pricing__cards-card-trial">1-month trial for US$0</p>
+        <p class="pricing__cards-card-restrictions">
+          Add up to 5 family members (aged 13+) in your household.
+          <a href="#">Restrictions apply. </a>
+        </p>
+        <button class="pricing__cards-card-button2">
+          Try 1 month for US$0
+        </button>
+      </div>
+
+      <!-- student -->
+      <div class="pricing__cards-card">
+        <div class="pricing__cards-card-container">
+          <i class="bi bi-mortarboard pricing__cards-card-container-icon"></i>
+          <h3 class="pricing__cards-card-container-title">Student</h3>
+        </div>
+        <hr class="pricing__cards-card-hr" />
+        <p class="pricing__cards-card-period">Monthly</p>
+        <h4 class="pricing__cards-card-price">US$2.99/month</h4>
+        <p class="pricing__cards-card-trial">1-month trial for US$0</p>
+        <p class="pricing__cards-card-restrictions">
+          Eligible students only. Annual verification required.
+          <a href="#">Restrictions apply. </a>
+        </p>
+        <button class="pricing__cards-card-button2">
+          <i class="bi bi-box-arrow-up-right"></i> Try 1 month for US$0
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- !Pricing -->
+
+  <section class="features">
+    <div class="features__container-text">
+      <h2 class="features__title">Youtube Music, your way</h2>
+      <p class="features__description">
+        These features are available in the YouTube Music app without a
+        subscription.
+      </p>
+    </div>
+
+    <div class="features__container-articles">
+      <article class="features__article move">
+        <div class="features__article-container__text">
+          <h3 class="features__article-title">Move to your own rhythm</h3>
+          <p class="features__article-description">
+            Listen to mixes based on the music that you love and discover
+            thousands of other playlists curated to match any mood or moment.
+          </p>
+        </div>
+
+        <div class="features__article-container__img">
+          <img class="features__article-img moveimg" src="./img/albums.webp" alt="" />
+        </div>
+      </article>
+
+      <article class="features__article customise">
+        <div class="features__article-container__img">
+          <img class="features__article-img customiseimg" src="./img/mobile.webp" alt="" />
+        </div>
+
+        <div class="features__article-container__text">
+          <h3 class="features__article-title">
+            Customise your listening experience
+          </h3>
+          <p class="features__article-description">
+            Combine your favourite artists and fine-tune your own music
+            experience.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <div class="accordion__container">
+    <section class="accordion">
+      <div class="accordion__container-title">
+        <h3>Any questions? We're here to help.</h3>
+      </div>
+
+      <div class="accordion__container-questions">
+        <div class="accordion__question">
+          <p class="accordion__question-title">
+            How do I play videos and music in the background?
+          </p>
+          <div class="arrow"></div>
+        </div>
+        <hr />
+      </div>
+
+      <div class="accordion__container-questions">
+        <div class="accordion__question">
+          <p class="accordion__question-title">
+            What products, services and devices support YouTube Music Premium?
+          </p>
+          <div class="arrow"></div>
+        </div>
+        <hr />
+      </div>
+
+      <div class="accordion__container-questions">
+        <div class="accordion__question">
+          <p class="accordion__question-title">
+            How many members can I add to a family plan?
+          </p>
+          <div class="arrow"></div>
+        </div>
+        <hr />
+      </div>
+
+      <div class="accordion__container-questions">
+        <div class="accordion__question">
+          <p class="accordion__question-title">
+            How can I cancel my subscription?
+          </p>
+          <div class="arrow"></div>
+        </div>
+        <hr />
+      </div>
+
+      <div class="accordion__container-bottom">
+        <p>Have other questions?</p>
+        <p>Visit the <a href="#">YouTube Help Centre</a></p>
+      </div>
+    </section>
+
+    <!-- *Downbar -->
+    <section class="downbar">
+      <div class="downbar__item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" height="16" viewBox="0 0 24 24" width="24"
+          focusable="false" aria-hidden="true" style="
+              pointer-events: none;
+              display: inherit;
+              width: 100%;
+              height: 100%;
+            ">
+          <path clip-rule="evenodd"
+            d="M22.146 11.146a.5.5 0 01-.353.854H20v7.5a1.5 1.5 0 01-1.5 1.5h-5v-7h-3v7h-5A1.5 1.5 0 014 19.5V12H2.207a.5.5 0 01-.353-.854L12 1l10.146 10.146ZM18.5 9.621l-6.5-6.5-6.5 6.5V19.5H9V13a.5.5 0 01.5-.5h5a.5.5 0 01.5.5v6.5h3.5V9.621Z"
+            fill-rule="evenodd"></path>
+        </svg>
+        <p class="downbar__item-text">Home</p>
+      </div>
+      <div class="downbar__item">
+        <svg class="downbar__item-icon" xmlns="http://www.w3.org/2000/svg" height="19" viewBox="0 0 24 24" width="24"
+          focusable="false" aria-hidden="true" style="
+              pointer-events: none;
+              display: inherit;
+              width: 100%;
+              height: 100%;
+            ">
+          <path
+            d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z"
+            fill="#ffffff"></path>
+        </svg>
+        <p class="downbar__item-text">Shorts</p>
+      </div>
+      <div class="downbar__item">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false"
+          aria-hidden="true" style="
+              pointer-events: none;
+              display: inherit;
+              width: 100%;
+              height: 100%;
+            ">
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 1c4.96 0 9 4.04 9 9 0 1.42-.34 2.76-.93 3.96-1.53-1.72-3.98-2.89-7.38-3.03A3.996 3.996 0 0016 9c0-2.21-1.79-4-4-4S8 6.79 8 9c0 1.97 1.43 3.6 3.31 3.93-3.4.14-5.85 1.31-7.38 3.03C3.34 14.76 3 13.42 3 12c0-4.96 4.04-9 9-9zM9 9c0-1.65 1.35-3 3-3s3 1.35 3 3-1.35 3-3 3-3-1.35-3-3zm3 12c-3.16 0-5.94-1.64-7.55-4.12C6.01 14.93 8.61 13.9 12 13.9c3.39 0 5.99 1.03 7.55 2.98C17.94 19.36 15.16 21 12 21z"
+            fill="#ffffff"></path>
+        </svg>
+        <p class="downbar__item-text">You</p>
+      </div>
+    </section>
+    <!-- *Downbar -->
+  </div>
+</body>
+
 </html>

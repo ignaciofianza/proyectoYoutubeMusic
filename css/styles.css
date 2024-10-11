@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-  background-color: black;
+  background-color: #0f0f0f;
   height: 50px;
 }
 
@@ -273,11 +273,13 @@ body {
 
   .features1__cards-card-image {
     margin-bottom: 20px;
+    width: 30%;
   }
 
   .features1__cards-card-text {
     text-align: center;
   }
+  
 }
 
 @media (min-width: 768px) {
