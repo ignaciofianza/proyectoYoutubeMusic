@@ -1,0 +1,146 @@
+/* LINKED BECAUSE DONE AFTER ALL PARTS AND ERRORS WERE GIVEN. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing__title {
+  margin: 80px 0px 30px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+  width: 90%;
+}
+
+.pricing__cards {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.pricing__cards-card {
+  background-color: #212121;
+  border-radius: 25px;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.pricing__cards-card-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.pricing__cards-card-container-icon {
+  font-size: 26px;
+}
+
+.pricing__cards-card-container-title {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.pricing__cards-card-hr {
+  border: none;
+  height: 2px;
+  background-color: #3d3d3d;
+  margin-bottom: 15px;
+}
+
+.pricing__cards-card-period {
+  color: #a8aaa7;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.pricing__cards-card-price {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.pricing__cards-card-trial {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.pricing__cards-card-restrictions {
+  color: #a8aaa7;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+
+.pricing__cards-card-restrictions a {
+  text-decoration: none;
+  color: #528bbe;
+}
+
+.pricing__cards-card-button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 40px;
+  background-color: #55a6ff;
+  font-size: 17px;
+  font-weight: 550;
+}
+
+.pricing__cards-card-button2 {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 40px;
+  background-color: #273950;
+  color: #55a6ff;
+  font-size: 17px;
+  font-weight: 550;
+}
+
+@media (min-width: 1024px) {
+  .pricing__title {
+    margin-bottom: 140px;
+    font-size: 55px;
+    width: 45%;
+  }
+
+  .pricing__cards {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .pricing__cards-card {
+    width: 30.5%;
+  }
+
+  .pricing__cards-card-button,
+  .pricing__cards-card-button2 {
+    transition: all;
+  }
+
+  .pricing__cards-card-button:hover {
+    background-color: #30bcfc;
+  }
+
+  .pricing__cards-card-button2:hover {
+    background-color: #585464;
+  }
+}
