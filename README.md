@@ -31,4 +31,4 @@ Este proyecto fue realizado en conjunto por:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/usuario/mockup-youtube-music-premium.git
+   git clone https://github.com/ignaciofianza/proyectoYoutubeMusic.git
