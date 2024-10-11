@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.downbar {
+  /* border: solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow-y: hidden;
+  height: 60px;
+  color: white;
+  background-color: #0f0f0f;
+}
+
+.downbar__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.downbar__item-text {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+@media (min-width: 1024px) {
+  .downbar {
+    display: none;
+  }
+}
