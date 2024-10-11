@@ -6,7 +6,7 @@ Este proyecto es un mockup de la página de suscripción a **YouTube Music Premi
 
 El objetivo de este proyecto fue desarrollar un mockup de la página de suscripción a YouTube Music Premium. Se realizó utilizando **HTML5** y **CSS3**.
 
-Puedes ver el proyecto en línea en: [proyectosantynacho.ignaciofianza.com](https://proyectosantynacho.ignaciofianza.com)
+Puedes ver el proyecto en línea en: [proyecto-youtube-music.vercel.app](proyecto-youtube-music.vercel.app)
 
 ## Colaboradores
 
